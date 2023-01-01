@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-div{
+  background-color: bisque;
+  height:100vh;
+  position: relative;
+
+}
+.center-div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 2px solid black;
+  padding: 30px 40px ;
+  box-shadow:5px;
+  background: white;
+  height: 50vh;
+
+}
+.center-div h1{
+  background-color: #8566aa;
+  color: aliceblue;
+
+  font-size: 40px;
+}
+.xc{
+  border: none;
+  border-bottom: solid 2px red;
+}
+button{
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 40px;
+  background-color: #8566aa;
+  color: antiquewhite;
+  border: none;
+  outline: none;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.30);
+
+}
+button:hover{
+  background-color:green ;
+}
+ol li{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  color: brown;
+}
+.todo-style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-top: 7px;
+  
+}
+.todo-style .fa-times{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin: 0px 5px 15px -5px rgba(0,0,0,0.30);
+
+}
+.todo-style .fa-times:hover{
+  background-color: red;
+}
